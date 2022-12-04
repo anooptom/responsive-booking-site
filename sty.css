@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+
+
+.navbar-brand
+{
+    font-family: 'Poppins';
+    font-size: 5vh;
+    color: white;
+    padding-left: 5vh;
+}
+.first{
+    background-color: #0071c2;
+   
+}
+
+.navbar-brand:hover{
+    color: white;
+}
+.nav-item{
+    color: white;
+    font-size:120%;
+}
+#rt{
+    margin-right: 65%;
+}
+@media only screen and (max-width:600px){
+    .nav-item{
+        padding-left:5vw;
+    }
+}
+@media only screen and (max-width:1024px){
+    #rt{
+        margin-right:50%;
+    }
+}
